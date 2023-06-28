@@ -21,6 +21,7 @@ tabs.appendChild(contact);
 
 pageLoad();
 
+
 home.addEventListener("click", ()=>{
     content.remove();
     content = document.createElement("div");

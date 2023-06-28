@@ -1,3 +1,6 @@
+import Icon from './res.jpg';
+// const myIcon = new Image();
+// myIcon.src = Icon;
 
 function pageLoad(){
     let contentDiv = document.querySelector("#content");
@@ -8,8 +11,9 @@ function pageLoad(){
 
     let imageAndText = document.createElement("div");
     imageAndText.classList.add("imageBlock");
-    let image = document.createElement("img");
-    image.src = "../dist/res.jpg"
+    // let image = document.createElement("img");
+    const image = new Image();
+    image.src = Icon;
     image.classList.add("photo");
 
     let tagline = document.createElement("div");
